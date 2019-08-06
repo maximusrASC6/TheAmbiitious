@@ -2,15 +2,15 @@
  
  class MoonSever {
      constructor() {
-         this.x = 100
-         this.y = height/2 
+         this.x = width/2
+         this.y = 400
         
          this.show = function() {
             fill(225) 
             rect(this.x, this.y, 40, 40);
           
          this.move = function(dir) {
-             this.y += dir*5;
+             this.x += dir*5;
     
             }
          
